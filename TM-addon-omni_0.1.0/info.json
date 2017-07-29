@@ -1,0 +1,10 @@
+{
+	"name": "TM-addon-omni",
+	"version": "0.1.0",
+	"title": "TM addon for Omnimods",
+	"author": "KorGgenT",
+	"contact": "korggent@hotmail.com",
+	"factorio_version": "0.15",
+	"description": "Thaumaturgic Compatability for Omnimods",
+	"dependencies":["Thaumaturgic-Machinations >= 0.1","?omnimatter_wood >= 0.1.9"]
+}
