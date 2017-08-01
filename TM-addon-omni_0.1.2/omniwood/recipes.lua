@@ -23,9 +23,15 @@ data:extend({
 
 omni.lib.replace_recipe_ingredient("silverwood-seedling","raw-silverwood","omniseedling")
 omni.lib.replace_recipe_ingredient("grow-wood","seedling","omniseedling")
-data.raw.recipe["grow-wood"].result = "mutated-wood"
+omni.lub.repace_recipe_result("grow-wood","raw-wood","mutated-wood")
 data.raw.recipe["grow-wood"].result_count = 10
-data.raw.recipe["seedling-aspect-extraction"] = nil
-omni.lib.remove_recipe_all_techs("TM-seedling")
-data.raw.recipe["TM-seedling"] = nil
-TM.item_add_aspect("omniseedling", "Herba", 40)
+
+if mods["bobgreenhouse"] then
+log(mods["bobgreenhouse"])
+	data.raw.recipe["seedling-aspect-extraction"] = nil
+	omni.lib.remove_recipe_all_techs("TM-seedling")
+	data.raw.recipe["TM-seedling"] = nil
+	TM.item_add_aspect("omniseedling", "Herba", 40)
+	omni.lib.replace_recipe_ingredient("silverwood-seedling","raw-silverwood","omniseedling")
+	omni.lib.replace_recipe_ingredient("grow-wood","seedling","omniseedling")
+end
