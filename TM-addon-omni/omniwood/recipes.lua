@@ -23,7 +23,7 @@ data:extend({
 
 omni.lib.replace_recipe_ingredient("silverwood-seedling","raw-silverwood","omniseedling")
 omni.lib.replace_recipe_ingredient("grow-wood","seedling","omniseedling")
-omni.lub.repace_recipe_result("grow-wood","raw-wood","mutated-wood")
+omni.lib.replace_recipe_result("grow-wood","raw-wood","mutated-wood")
 data.raw.recipe["grow-wood"].result_count = 10
 
 if mods["bobgreenhouse"] then

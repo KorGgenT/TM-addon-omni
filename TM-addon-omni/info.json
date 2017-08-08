@@ -1,0 +1,31 @@
+{
+	"name": "TM-addon-omni",
+	"version": "0.1.2",
+	"title": "TM addon for compatibility",
+	"author": "KorGgenT",
+	"contact": "korggent@hotmail.com",
+	"factorio_version": "0.15",
+	"description": "Thaumaturgic Compatability for Omnimods",
+	"dependencies":[
+		"Thaumaturgic-Machinations >= 0.1.3",
+		"?omnilib >= 1.0.8",
+		"?omnimatter >= 1.2.8",
+		"?omnimatter_wood >= 0.1.10", 
+		"?boblibrary >= 0.15.8", 
+		"?bobassembly >= 0.15.7", 
+		"?bobelectronics >= 0.15.3", 
+		"?bobenemies >= 0.15.2", 
+		"?bobgreenhouse >= 0.15.2", 
+		"?bobinserters >= 0.15.1", 
+		"?boblogistics >= 0.15.6", 
+		"?bobmining >= 0.15.2", 
+		"?bobores >= 0.15.6", 
+		"?bobplates >= 0.15.12", 
+		"?bobrevamp >= 0.15.4", 
+		"?bobtech >= 0.15.3", 
+		"?bobvehicleequipment >= 0.15.2", 
+		"?bobwarfare >= 0.15.3"
+		"?angelsrefining >= 0.7.25",
+		"?angelspetrochem >= 0.5.13",
+	]
+}
