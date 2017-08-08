@@ -7,8 +7,11 @@ end
 if mods["bobelectronics"] then
 	require("bobelectronics.recipes")
 end
-if mods["bobores"] then
+if mods["bobores"] or mods["bobplatess"] then
 	require("bobores.recipes")
+end
+if mods["bobplates"] then
+	require("bobplates.recipes")
 end
 if mods["angelsrefining"] then
 	require("angelsrefining.recipes")

@@ -24,7 +24,7 @@
 		"?bobrevamp >= 0.15.4", 
 		"?bobtech >= 0.15.3", 
 		"?bobvehicleequipment >= 0.15.2", 
-		"?bobwarfare >= 0.15.3"
+		"?bobwarfare >= 0.15.3",
 		"?angelsrefining >= 0.7.25",
 		"?angelspetrochem >= 0.5.13",
 	]
